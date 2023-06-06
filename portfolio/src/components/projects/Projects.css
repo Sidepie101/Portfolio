@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Roboto+Condensed&family=Rubik:wght@900&display=swap');
+
+.projects-container {
+    background-color: #202529;
+    color: white;
+    padding: 50px;
+    min-height: calc(100vh - 70px);
+    /* Subtract the height of the header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-title {
+    margin-bottom: 40px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.project-image {
+    width: 246px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-image-wide {
+    width: 500px;
+}
+
+/* Add hover effect */
+.project-image:hover, 
+.project-image-wide:hover {
+    transform: scale(1.1); /* Increase the size of the image on hover */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+  }
+  
+  /* Add zoom module for accessibility */
+  .project-image:focus, 
+  .project-image-wide:focus {
+    transform: scale(1.1); /* Increase the size of the image when focused */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+    outline: none; /* Remove the default focus outline */
+  }
+
+.project-details {
+    text-align: center;
+}
+
+.project-title {
+    font-size: 24px;
+    color: orange;
+    margin-bottom: 10px;
+    font-family: 'Bungee', cursive;
+
+}
+
+.project-description {
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
