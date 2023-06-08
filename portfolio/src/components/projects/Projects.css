@@ -34,13 +34,13 @@
 
 @keyframes glowing {
   0% {
-    box-shadow: 0 0 5px 0 rgba(255, 84, 3, 0.7);
+    box-shadow: 0 0 3px 0 rgba(255, 84, 3, 0.7);
   }
   50% {
-    box-shadow: 0 0 20px 5px rgba(255, 84, 3, 0.9);
+    box-shadow: 0 0 8px 5px rgba(255, 84, 3, 0.9);
   }
   100% {
-    box-shadow: 0 0 5px 0 rgba(255, 84, 3, 0.7);
+    box-shadow: 0 0 3px 0 rgba(255, 84, 3, 0.7);
   }
 }
 
@@ -81,9 +81,46 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* code for the github button  */
 
-/* 
-Styling for the glowing button, @credits to https://freefrontend.com/css-buttons/ from the author Kshitij
-*/
-
-
+.link-container {
+    perspective: 800px;
+  }
+  
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(32, 37, 41, 0.9);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-10px);
+  }
+  
+  .project-link::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    transform: translateZ(-8px);
+    pointer-events: none;
+    transition: opacity 0.3s;
+    opacity: 1;
+  }
+  
+  .project-link:hover {
+    transform: translateY(-2px) translateZ(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-link:hover::before {
+    opacity: 0;
+  }
+  

@@ -23,7 +23,7 @@ function DrinkManagerProject() {
         </div>
         <div className='link-container'>
         <a href="https://github.com/Sidepie101/Drink-Manager" className="project-link" target="_blank" rel="noopener noreferrer">
-          Click here to check the code on GitHub
+        <span> Click here to check the code on GitHub</span> 
           
         </a>
         </div>
