@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lalezar&family=Rubik&family=Suez+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 
 .home-container {
     background-color: #202529;
@@ -33,7 +35,8 @@
     font-size: 48px;
     color: rgb(75, 89, 132);
     margin-top: 20px;
-    
+    font-family: 'Roboto Slab', serif;    
+    font-weight: bold;
   }
   
   .info-text {
@@ -41,7 +44,8 @@
     color: orange;
     margin-top: 20px;
     margin-bottom: 100px;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;    
+    font-weight: bold;
       }
 
   .info-text a {
@@ -61,17 +65,26 @@
   .profile-image {
     width: auto;
     height: auto;
+    border-radius: 10%;
   }
 
-
-  .description-text {
-    margin-top: 20px; /* Add margin-top for spacing */
-    font-size: 16px;
-    font-family: 'Concert One', cursive;
-    font-family: 'Lalezar', cursive;
-    font-family: 'Suez One', serif;
+  .profile-image:hover {
+    animation: floating-animation 2s infinite;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
   
+  @keyframes floating-animation {
+    0% {
+      transform: rotateY(10deg) translateY(-5px);
+    }
+    50% {
+      transform: rotateY(-10deg) translateY(5px);
+    }
+    100% {
+      transform: rotateY(10deg) translateY(-5px);
+    }
+  }
+
   .description-text p {
     margin-bottom: 10px; /* Add margin-bottom for spacing between paragraphs */
   }

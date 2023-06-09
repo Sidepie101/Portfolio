@@ -21,7 +21,7 @@ const Home = () => {
             <p className="info-text">
               Check out my{' '}
               <a
-              className='github'
+                className='github'
                 href="https://github.com/Sidepie101"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const Home = () => {
                   <span className="material-symbols-outlined">brush</span>
                   Besides my focus on data, I'm also well-versed in front-end web development. I strive to create visually appealing and user-friendly interfaces that enhance the overall user experience. My proficiency in front-end technologies, coupled with my eye for design, allows me to develop captivating web applications.
 
-</p>
+                </p>
               </div>
             </div>
 
