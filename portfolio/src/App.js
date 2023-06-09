@@ -1,18 +1,24 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import './App.css';
-//import Layout from './components/Layout'
-//import Home from './components/Home/Home';
-//import Projects from './components/projects/Projects';
-//import CalculatorProject from './components/projects/CalculatorProject';
-//import DrinkManagerProject from './components/projects/DrinkManagerProject';
-
+//import Layout from './components/Layout/Layout';
+import Home from './components/Home/Home';
+import CalculatorProject from './components/projects/CalculatorProject';
+import DrinkManagerProject from './components/projects/DrinkManagerProject';
 import Contact from './components/contact/Contact';
 
-function App() {
+const App = () => {
   return (
-
-<Contact />
-
+    <BrowserRouter basename="/">
+      
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/calculator" element={<CalculatorProject />} />
+          <Route path="/projects/drink-manager" element={<DrinkManagerProject />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      
+    </BrowserRouter>
   );
 }
 
