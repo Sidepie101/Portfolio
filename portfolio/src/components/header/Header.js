@@ -37,11 +37,7 @@ const Header = () => {
                   Projects
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link nav-link-animate" href="/">
-                  About Me
-                </a>
-              </li>
+              
               <li className="nav-item">
                 <a className="nav-link nav-link-animate" href="/">
                   Contact

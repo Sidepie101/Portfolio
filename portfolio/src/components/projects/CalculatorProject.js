@@ -23,7 +23,7 @@ function CalculatorProject() {
         </div>
         <div className='link-container'>
         <a href="https://github.com/Sidepie101/Calculator" className="project-link" target="_blank" rel="noopener noreferrer">
-        <span> Click here to check the code on GitHub</span> 
+        <span> Check the code on GitHub </span> 
           
         </a>
         </div>
