@@ -1,25 +1,18 @@
 
-import Pied from './components/footer/Pied';
 import './App.css';
-import Header from './components/header/Header';
+//import Layout from './components/Layout'
+//import Home from './components/Home/Home';
+//import Projects from './components/projects/Projects';
+//import CalculatorProject from './components/projects/CalculatorProject';
+//import DrinkManagerProject from './components/projects/DrinkManagerProject';
+
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
 
+<Contact />
 
-
-<><Header />  <Pied /> </>
-
-
-
-
-      
-       
-      
-     
-
-      
-   
   );
 }
 

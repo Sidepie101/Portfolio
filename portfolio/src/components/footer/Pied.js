@@ -14,7 +14,7 @@ function Pied() {
         <div className="d-flex align-items-center">
           <div className="text-white me-3">
             <a
-              href="https://www.linkedin.com/your-linkedin-profile"
+              href="https://www.linkedin.com/in/taha-moukhlisse/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white"
@@ -24,7 +24,7 @@ function Pied() {
           </div>
           <div className="text-white">
             <a
-              href="https://github.com/your-github-profile"
+              href="https://github.com/Sidepie101"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white"
