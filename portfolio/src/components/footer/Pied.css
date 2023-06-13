@@ -1,38 +1,38 @@
-
 /* Top part of the footer */
-.container-fluid {
-    background-color: #343a40; /* Replace with your desired color */
-  }
-  
-  /* Let's connect text */
-  .lets-connect {
-    font-size: 24px;
-    font-family: 'Audiowide', sans-serif;
-    margin: 0;
-    padding-left: 20px;
-  }
-  
-  /* Bottom part of the footer */
-  .gradient-bg {
-    background-color: #202529; /* Replace with your desired gradient colors */
-  }
-  
-  /* Copyright text */
-  .gradient-bg p {
-    color: #ffffff; /* Replace with your desired color */
-    font-size: 10px;
-    font-weight: bold;
-    font-family: 'Audiowide', sans-serif;
-  }
-  
-  /* LinkedIn and GitHub icons */
-  .text-white {
-    color: #fff; /* Replace with your desired color */
-    margin: 0 10px; /* Adjust the margin as needed */
-    transition: color 0.3s ease;
-  }
-  
-  .text-white:hover {
-    color: #ccc; /* Replace with your desired hover color */
-  }
-  
+.footer-container.container-fluid {
+  background-color: #343a40;
+}
+
+/* Let's connect text */
+.footer-container .lets-connect {
+  font-size: 24px;
+  font-family: 'Audiowide', sans-serif;
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* Bottom part of the footer */
+.footer-container .gradient-bg {
+  background-color: #202529;
+  width: 100%;
+}
+
+/* Copyright text */
+.footer-container .gradient-bg p {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Audiowide', sans-serif;
+  margin: 0;
+}
+
+/* LinkedIn and GitHub icons */
+.footer-container .text-white {
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-container .text-white:hover {
+  color: #ccc;
+}
