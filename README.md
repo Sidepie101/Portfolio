@@ -3,7 +3,7 @@
 
 Overview of the Home page: 
 
-![Home Page Screenshot](homePagesc.png)
+![Home Page Screenshot](/portfolio/homePagesc.jpg)
 
 
 - Install dependencies
@@ -18,3 +18,7 @@ Overview of the Home page:
   npm start
   ```
 
+- Dependency Conflicts
+  ```bash
+  If you encounter any dependency conflicts when running the command npm install or/and npm start, use the version in the branch PortfolioWindows.
+  ```
