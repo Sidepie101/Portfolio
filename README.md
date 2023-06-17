@@ -3,7 +3,7 @@
 
 Overview of the Home page: 
 
-![Home Page Screenshot](/portfolio/homePagesc.png)
+![Home Page Screenshot](/portfolio/homePagesc.jpg)
 
 
 - Install dependencies
