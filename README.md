@@ -18,3 +18,5 @@ Overview of the Home page:
   npm start
   ```
 
+- Dependency Conflicts
+  If you encounter any dependency conflicts when running the command npm install or/and npm start, use the version in the branch PortfolioWindows.
