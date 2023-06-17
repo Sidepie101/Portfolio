@@ -6,13 +6,16 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   const [isProjectsOpen, setIsProjectsOpen] = useState(false);
 
-  const handleProjectsMouseEnter = () => {
-    setIsProjectsOpen(true);
-  };
+  // Function to handle mouse enter event for the projects dropdown menu
+const handleProjectsMouseEnter = () => {
+  setIsProjectsOpen(true); 
+};
 
-  const handleProjectsMouseLeave = () => {
-    setIsProjectsOpen(false);
-  };
+// Function to handle mouse leave event for the projects dropdown menu
+const handleProjectsMouseLeave = () => {
+  setIsProjectsOpen(false); 
+};
+
 
   return (
     <header>

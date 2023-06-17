@@ -9,8 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Align items to the top */
-  text-align: center; /* Center the text horizontally */
+  justify-content: flex-start; 
+  text-align: center; 
 }
 
 .projects-title {
@@ -28,7 +28,7 @@
   margin-bottom: 40px;
   margin-top: 50px;
   background-color: rgb(47, 47, 47);
-  animation: glowing 2s ease-in-out infinite; /* Add animation for continuous glowing */
+  animation: glowing 2s ease-in-out infinite; 
 }
 
 @keyframes glowing {
@@ -80,7 +80,6 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* code for the github button  */
 
 .link-container {
     perspective: 800px;

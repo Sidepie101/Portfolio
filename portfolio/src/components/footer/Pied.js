@@ -1,8 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Pied.css';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -22,10 +20,7 @@ function Pied() {
               rel="noopener noreferrer"
               className="text-white"
             >
-
-              {/*<FontAwesomeIcon icon={faLinkedin} size="lg" /> */}
               <LinkedInIcon />
-
             </a>
           </div>
           <div className="text-white">
@@ -35,9 +30,7 @@ function Pied() {
               rel="noopener noreferrer"
               className="text-white"
             >
-              {/*<FontAwesomeIcon icon={faGithub} size="lg" /> */}
               <GitHubIcon />
-
             </a>
           </div>
         </div>

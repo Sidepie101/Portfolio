@@ -1,11 +1,11 @@
 .navbar-nav li.nav-item .dropdown-menu {
-  background-color: rgb(32, 37, 41); /* Replace with your desired color */
+  background-color: rgb(32, 37, 41); 
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   padding: 0 !important;
   position: absolute;
-  top: calc(100% - 5px) !important; /* Adjust this value to control the vertical spacing */
+  top: calc(100% - 5px) !important; 
   left: 0 !important;
   z-index: 999 !important;
   opacity: 0 !important;
@@ -20,7 +20,7 @@
 }
 
 .dropdown-item {
-  color: rgb(157, 158, 160) !important; /* Replace with the desired text color */
+  color: rgb(157, 158, 160) !important; 
   font-size: 13px !important;
   padding: 10px 20px !important;
   transition: background-color 0.3s ease-in-out;
@@ -28,7 +28,7 @@
 }
 
 .dropdown-item:hover {
-  background-color: rgb(47, 47, 47) !important; /* Replace with the desired highlight color */
+  background-color: rgb(47, 47, 47) !important; 
   color: orange !important;
 }
 
