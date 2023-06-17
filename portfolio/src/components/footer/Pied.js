@@ -1,18 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Pied.css';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Pied() {
   return (
     <footer className="footer-container bg-dark text-white">
       <div className="container-fluid d-flex justify-content-between align-items-center footer-content" style={{ height: '80px' }}>
         <div className="me-auto ml-3">
-          <p className="lets-connect"> "Let's connect" </p>
+          <p className="lets-connect">Let's connect</p>
         </div>
         <div className="d-flex align-items-center">
           <div className="text-white me-3">
@@ -22,10 +21,8 @@ function Pied() {
               rel="noopener noreferrer"
               className="text-white"
             >
-
-              {/*<FontAwesomeIcon icon={faLinkedin} size="lg" /> */}
-              <LinkedInIcon />
-
+             {/*<FontAwesomeIcon icon={faLinkedin} size="lg" />*/ } 
+             <LinkedInIcon />
             </a>
           </div>
           <div className="text-white">
@@ -35,9 +32,9 @@ function Pied() {
               rel="noopener noreferrer"
               className="text-white"
             >
-              {/*<FontAwesomeIcon icon={faGithub} size="lg" /> */}
-              <GitHubIcon />
+                           <GitHubIcon />
 
+              {/*<FontAwesomeIcon icon={faGithub} size="lg" />*/}
             </a>
           </div>
         </div>
