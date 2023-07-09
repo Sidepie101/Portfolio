@@ -48,7 +48,9 @@ const handleProjectsMouseLeave = () => {
                   <Link to="/projects/drink-manager" className="dropdown-item">
                     Drink Manager Project
                   </Link>
-                </li>
+                </li> 
+            
+
               </ul>
             </li>
             <li className="nav-item">
@@ -56,6 +58,14 @@ const handleProjectsMouseLeave = () => {
                 Contact
               </Link>
             </li>
+
+            <li className='nav-item'>
+                  <Link to="/testimonies" className="nav-link">
+                    Testimonies
+                  
+                  </Link>
+                </li>
+
           </ul>
         </div>
       </nav>
