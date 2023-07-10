@@ -50,7 +50,7 @@ const Home = () => {
               <div className="card orange-card">
                 <p>
                   <span className="material-symbols-outlined">rocket_launch</span>
-                  What truly ignites my enthusiasm is working with data. I thrive in data manipulation and analysis, leveraging my skills in SQL, MySQL, Cassandra, and MongoDB to extract valuable insights. I believe data is the backbone of informed decision-making and enjoy exploring innovative ways to extract meaningful patterns from it.
+                  What truly ignites my enthusiasm is working with data. I thrive in data manipulation and analysis, leveraging my skills in MySQL, Cassandra, and MongoDB to extract valuable insights. I believe data is the backbone of informed decision-making and enjoy exploring innovative ways to extract meaningful patterns from it.
                 </p>
               </div>
               <div className="card orange-card">
