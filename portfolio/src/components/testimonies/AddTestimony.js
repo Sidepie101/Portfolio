@@ -92,6 +92,7 @@ function AddTestimony() {
     const fullNameRegex = /^[a-zA-Z\s'.,-]*$/;
     const companyNameRegex = /^.+$/;
     const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+    const testimonyRegex = /^.+$/;
 
     let newErrors = {
       fullName: '',
@@ -100,7 +101,7 @@ function AddTestimony() {
       testimony: '',
     };
 
-    function validateField(field, regex, minLength, errorMessage) {
+    function validateField(field, regex, minLength) {
       if (state[field].trim() === '') {
         newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
         isValid = false;
@@ -144,7 +145,8 @@ function AddTestimony() {
 
     switch (true) {
       case state.testimony.trim() === '':
-        validateField('testimony', null);
+      case state.testimony.trim().length < 10:
+        validateField('testimony', testimonyRegex, 10);
         break;
       default:
         break;
