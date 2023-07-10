@@ -1,16 +1,15 @@
 import React from 'react';
 import Header from '../header/Header';
-import Pied from '../footer/Pied'
+import Pied from '../footer/Pied';
 
-const layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <div>
-        <Header />
-        {children}
-        <Pied />
-
+      <Header />
+      {children}
+      <Pied />
     </div>
-  )
-}
+  );
+};
 
-export default layout
+export default Layout;
